@@ -1,0 +1,18 @@
+TOTAL_OBJECTS: 8
+SEED: 0
+AGENT:
+  mode: "debug_astar_planning"
+  hover_steps: 1000
+  MAPS:
+    map_size: 275
+    feature_map_channels: 3
+    occupancy_map_channels: 1
+    coordinate_min: -22.0
+    coordinate_max:  22.0
+    affinity_measure: "binary_image_detect"
+    goal_measure: "threshold"
+    goal_threshold: 0.8
+    egocentric_map_size: 130
+    depth_march_size: 0.5
+  VISUALIZE:
+    target: ["rgb", "depth", "feature_map", "occupancy_map"]
