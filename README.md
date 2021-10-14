@@ -1,6 +1,6 @@
 # SGoLAM - Simultaneous Goal Localization and Mapping
 
-PyTorch implementation of the MultiON runner-up entry, SGoLAM: Simultaneous Goal Localization and Mapping [Talk Video.](https://www.youtube.com/watch?v=XgT2w6rUwjM) Our method does not employ any training of neural networks, but shows competent performance in the [MultiON benchmark.](https://eval.ai/web/challenges/challenge-page/805/leaderboard/2202) In fact, we outperform the winning entry by a large margin in terms of success rate. 
+PyTorch implementation of the MultiON runner-up entry, SGoLAM: Simultaneous Goal Localization and Mapping [(Talk Video).](https://www.youtube.com/watch?v=XgT2w6rUwjM) Our method does not employ any training of neural networks, but shows competent performance in the [MultiON benchmark.](https://eval.ai/web/challenges/challenge-page/805/leaderboard/2202) In fact, we outperform the winning entry by a large margin in terms of success rate. 
 
 ![alt text](https://github.com/eunsunlee/SGoLAM/blob/main/rank.png)
 
