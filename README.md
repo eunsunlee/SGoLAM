@@ -1,6 +1,8 @@
-# MultiON Win
+# SGoLAM - Simultaneous Goal Localization and Mapping
 
-Pytorch Implementation of MultiON winning entry (hopefully).
+PyTorch implementation of the MultiON runner-up entry, SGoLAM: Simultaneous Goal Localization and Mapping. Our method does not employ any training of neural networks, but shows competent performance in the [MultiON benchmark.](https://eval.ai/web/challenges/challenge-page/805/leaderboard/2202) In fact, we outperform the winning entry by a large margin in terms of success rate. 
+
+We encourage future participants of the MultiON challenge to use our code as a starting point for implementing more sophisticated navigation agents. If you have any questions on running SGoLAM please leave an issue.
 
 ## Notes on Installation
 To run experiments locally/on a server, follow the 'bag of tricks' below:
